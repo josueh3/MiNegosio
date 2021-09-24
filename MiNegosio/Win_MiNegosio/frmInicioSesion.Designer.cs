@@ -41,6 +41,7 @@ namespace Win_MiNegosio
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::Win_MiNegosio.Properties.Resources.Desconocido;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 236);
@@ -50,9 +51,11 @@ namespace Win_MiNegosio
             // 
             // imagen
             // 
+            this.imagen.Image = global::Win_MiNegosio.Properties.Resources.usuario;
             this.imagen.Location = new System.Drawing.Point(298, 12);
             this.imagen.Name = "imagen";
             this.imagen.Size = new System.Drawing.Size(135, 124);
+            this.imagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagen.TabIndex = 1;
             this.imagen.TabStop = false;
             // 
@@ -100,6 +103,7 @@ namespace Win_MiNegosio
             this.btnCerrar.Text = "x";
             this.btnCerrar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // frmInicioSesion
             // 
