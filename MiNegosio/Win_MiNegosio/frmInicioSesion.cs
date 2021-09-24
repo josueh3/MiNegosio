@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Win_MiNegosio
 {
-    public partial class Form1 : Form
+    public partial class frmInicioSesion : Form
     {
-        public Form1()
+        public frmInicioSesion()
         {
             InitializeComponent();
         }
